@@ -1,0 +1,11 @@
+.App {
+  display: grid;
+  grid-template-areas:
+  "header header"
+  "nav content";
+  width: 100%;
+  margin: 0 auto;
+  grid-template-rows: 70px 1fr;
+  grid-template-columns: 2fr 14fr;
+  grid-gap: 5px;
+}
