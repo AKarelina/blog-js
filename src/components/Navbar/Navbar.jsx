@@ -1,7 +1,7 @@
 import React from "react";
-import classes from "./Nav.module.css"
+import classes from "./Navbar.module.css"
 
-export const Nav = () => {
+export const Navbar = () => {
     return (
         <nav className={classes.nav}>
             <div className={classes.item}>
