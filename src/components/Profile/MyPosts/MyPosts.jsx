@@ -4,10 +4,12 @@ import {Post} from "./Posts/Post";
 export const MyPosts = () =>{
     return (
         <div className={classes.posts}>
-            My posts
+            <h3>My posts</h3>
             <div>
                 <textarea></textarea>
-                <button>Add post</button>
+                <div className={classes.add}>
+                    <button>Add post</button>
+                </div>
             </div>
             <Post message="I like your post" count='25'/>
             <Post message="Thank you" count='1'/>

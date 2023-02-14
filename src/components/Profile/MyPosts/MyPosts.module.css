@@ -1,4 +1,14 @@
 .posts {
-    font-family: "Noto Sans";
+    font-family: "Noto Sans", sans-serif;
     text-shadow: 3px 1px 4px lightgrey;
+    padding: 10px;
 }
+
+.add {
+    padding-top: 5px;
+}
+
+.post {
+    margin-top: 10px;
+}
+
